@@ -1,4 +1,4 @@
-section{
+.flexibleSection{
     display: flex;
     margin-top: 5%;
     margin-left: 10%;
@@ -20,7 +20,7 @@ h2{
 }
 
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
     font-size: 25px;
     text-align: justify;
     padding-bottom: 2%;
@@ -47,12 +47,61 @@ footer{
     position:absolute;
     left:0;
     right:0;
-    bottom:0;
     padding: 2%;
     background-color:#263238;
     text-align:center;
     color:white;
-    font-family: 'Sonsie One', cursive;
+    font-family: 'Sonsie One', 'cursive';
     font-size: 40px;
     font-weight: 900;    
+}
+
+.secondSection{
+        margin-top: 2%;
+        margin-left: 10%;
+}
+
+.missionVissionGoals{
+    display: flex;
+    text-align: justify;
+}
+
+#mission{
+    width: 50%;
+    background-color: #f3e5f5;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+
+#vission{
+    width: 50%;
+    background-color: #fff3e0;
+    margin-left: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 20px;
+}
+
+#goals{
+    width: 50%;
+    background-color: #e3f2fd;
+    margin-right: 10%;
+    padding-left: 2%;
+    margin-left: 3%;
+    padding-right: 2%;
+    border-radius: 20px;
+}
+
+.missionVissionGoals img{
+    margin-top: 10%;
+    width: 30%;
+    height: 30%;
+}
+
+h4{
+    font-family: 'Verdana','Trebuchet MS';
+    margin-top: 2%;
+    font-size: 30px;
+    margin-bottom: 2%;
 }
