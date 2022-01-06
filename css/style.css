@@ -150,7 +150,7 @@ h3{
 }
 
 .backgroundImage{
-    background-image: url(/images/shape-5.png);
+    background-image: url(../images/shape-5.png);
     background-repeat: no-repeat;
     background-size: 25% 70%;
     background-position: 500px 50px;
